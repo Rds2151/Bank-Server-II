@@ -9,7 +9,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.post("/api/addAccount", (req, res, next) => {
-	const accountName = req.body.accountName
+    const accountName = req.body.accountName
     const accountNumber = parseInt(req.body.accountNumber)
     const accountType = req.body.accountType
     const balance = parseInt(req.body.balance)
